@@ -1,0 +1,18 @@
+html {
+ font-family: "vazir";
+}
+body {
+    background: url(./backgerand1.jpg);
+}
+.form-min{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.form-container{
+    background-color: #fff;
+    border-radius: 16px;
+    width: 40%;
+    height: 618px;
+}
+

@@ -2,12 +2,13 @@ html {
  font-family: "vazir";
 }
 body {
-    background: url(./backgerand1.jpg);
+    background: url(./backgerand1.jpg) 0 40%;
 }
 .form-min{
     display: flex;
-    justify-content: center;
-    padding: 40px;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
 }
 .form-container{
     background-color: #fff;
@@ -15,4 +16,54 @@ body {
     width: 40%;
     height: 618px;
 }
+.form-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.Description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Description h2{
+    width: 75%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2A42B8;
+}
+.form-login form{
+    width: 100%;
+}
+.form-user{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.form-user input{
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid #DFDFdf;
+}
+.form-user input:focus-visible {
+    border-color: #4C6EF5;
+}
+.Description-login{
+    display: flex;
+    justify-content: space-between;
+}
+.Description-login a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #4C6EF5;
+}
+.Description-login .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.submit{
 
+}

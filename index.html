@@ -10,20 +10,31 @@
 <body>
       <div class="form-min">
             <div class="form-container">
-              <div class="form-login">
-                <img src="./img/Logo.png" alt="Logo">
-                <form action="/login" method="POST">
-                    <h3>مشتری گرامی در صورت بروز مشکل در هنگام ورود به نت بانک،‌ خواهشمند است حافظه نهان مرورگر خود را پاک نمایید.</h3>
-                  <input type="text" id="username" name="username" required placeholder="نام کاربری">
-
-                  <input type="password" id="password" name="password" required placeholder="کلمه عبور">
+                  <div class="form-login">
+                        <div class="Description">
+                          <img src="./img/Logo.png" alt="Logo">
+                          <h2>مشتری گرامی در صورت بروز مشکل در هنگام ورود به نت بانک،‌ خواهشمند است حافظه نهان مرورگر خود را پاک نمایید.</h2>
+                        </div>
+                        <form action="/login" method="POST">
+                              <div class="form-user">
+                                <input type="text" id="username" name="username" required placeholder="نام کاربری">
+                                <input type="password" id="password" name="password" required placeholder="کلمه عبور">
+                              </div>
+                                  <div class="Description-login">
+                                    <a href="#">فراموشی رمز عبور</a>
+                                    <label for="rules" class="checkbox">
+                                        <input type="checkbox" name="rules" id="rules">مرا به خاطر بسپار
+                                        <span class="checkbox"></span>
+                                    </label>
+                                  </div>
+                                    <div class="submit">
+                                      <button type="submit">ورود</button>
+                                      <a href="#"><p>نیاز به راهنمایی دارید؟</p></a>
+                                    </div>
+                         </form>
+                      </div>
               </div>
-                <div class="submit">
-                  <button type="submit">ورود</button>
-                  <a href="#"><p>نیاز به راهنمایی دارید؟</p></a>
-                </div>
-              </form>
-            </div>
-      </div>
+              <h3>حریم خصوصی و امنیت | ایجاد شده توسط تیم طراحی بانک اروند ۱۴۰۳ </h3>
+        </div>
 </body>
 </html>

@@ -87,6 +87,9 @@ body {
     border-color:#4C6EF5 ;
     border-radius: 8px;
 }
+.submit button:hover{
+    background-color:#365aec ;
+}
 .submit a{
     text-decoration: none;
     font-size: 14px;

@@ -48,6 +48,12 @@ body {
     padding: 1rem;
     border: 1px solid #DFDFdf;
 }
+.form-user input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: #CBCBCB;
+    font-family: "vazir";
+}
 .form-user input:focus-visible {
     border-color: #4C6EF5;
 }
@@ -85,6 +91,7 @@ body {
     background-color: #4C6EF5;
     font-size: 16px;
     border-color:#4C6EF5 ;
+    font-family: "vazir";
     border-radius: 8px;
 }
 .submit button:hover{

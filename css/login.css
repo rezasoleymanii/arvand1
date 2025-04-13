@@ -109,6 +109,22 @@ body {
     color: #fff;
 }
 
+@media (max-width: 800px) {
+    .form-min{
+        padding: 0.5rem;
+    }
+    .Description h2 {
+        width: 100%;
+    }
+    .form-container{
+        width: 60%;
+        height: 580px;
+    }
+    .form-login{
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+}
 @media (max-width: 425px) {
     .form-min{
         padding: 0.5rem;
@@ -125,22 +141,6 @@ body {
     }
     .form-login{
         padding: 1rem;
-        gap: 1.5rem;
-    }
-}
-@media (max-width: 800px) {
-    .form-min{
-        padding: 0.5rem;
-    }
-    .Description h2 {
-        width: 100%;
-    }
-    .form-container{
-        width: 60%;
-        height: 580px;
-    }
-    .form-login{
-        padding: 1.5rem;
         gap: 1.5rem;
     }
 }

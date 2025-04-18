@@ -4,3 +4,41 @@ html {
 body{
     margin: 0;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: center;
+    width: 96%;
+}
+
+.Header-box{
+    display: flex;
+}
+.input-box{
+
+}
+.logo{
+
+}
+.Profile-box{
+
+}
+.Profile{
+    display: flex;
+}
+.name{
+    display: flex;
+}
+.icon-Buttoms{
+
+}
+.box-bell{
+
+}
+.badge{
+
+}
+.settings{
+
+}

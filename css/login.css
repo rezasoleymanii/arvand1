@@ -53,9 +53,7 @@ body {
     font-weight: 600;
     color: #CBCBCB;
     font-family: "vazir";
-}
-.form-user input:focus-visible {
-    border-color: #4C6EF5;
+    outline-color:#4C6EF5 ;
 }
 .Description-login{
     display: flex;

@@ -14,31 +14,75 @@ body{
 
 .Header-box{
     display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 .input-box{
+    display: flex;
+    align-items: center;
+    width: 62%;
+    height: 22px;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #EDEDED;
+    border-radius: 0.5rem;
+}
+.input-box input{
+    border: none;
+    font-size: 14px;
+    outline:none;
+    font-weight: 600;
+    font-family: "vazir";
 
 }
-.logo{
-
+.input-box input::placeholder{
+    color: #CBCBCB;
+}
+.logo img{
+    width: 89%;
 }
 .Profile-box{
-
+    width: 20%;
 }
 .Profile{
     display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.Specifications{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1.5rem;
+}
+.box-name{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
 .name{
     display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.box-name p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.box-name > p {
+    margin: 0;
+    font-size: 12px;
+    color: #4564DF;
 }
 .icon-Buttoms{
-
+    display: flex;
+    gap: 1.5rem;
 }
 .box-bell{
-
+    position: relative;
 }
-.badge{
-
-}
-.settings{
-
+.badge img{
+    position: absolute;
+    bottom: 1.1rem;
+    left: 0.6rem;
 }

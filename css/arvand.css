@@ -90,6 +90,7 @@ body{
 }
 .center{
     display: flex;
+    justify-content: space-around;
 }
 .SideBar{
     width: 22%;
@@ -99,8 +100,8 @@ body{
 .menu-container{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     height: 1535px;
+    padding: 0;
 }
 .list-menu{
     display: flex;
@@ -135,6 +136,120 @@ body{
     background-color: #4C6EF5;
 }
 .min-center{
-    padding: 2rem;
-    width: 73%;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 3rem;
+}
+.titele{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #364EAE;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    width: 92.7%;
+}
+.cards-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #404040;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    width: 16.2%;
+}
+.card{
+    width: 34.8%;
+}
+.card-body{
+    display: flex;
+    padding: 1.5rem;
+    background: url(./word.png) fixed;
+    background-size: 25%;
+    border: 1px solid;
+    border-bottom: none;
+    border-radius: 1rem 1rem 0rem 0rem;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.card-number{
+    display: flex;
+    justify-content: space-between;
+    color: #2A3D87;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.balance{
+    display: flex;
+    justify-content: space-between;
+    color: #4C6EF5;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.balance-info-container{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-between;
+}
+.balance-info-container span{
+    font-size: 1.2rem;
+}
+.card-balance span:nth-child(2){
+ font-size: 1rem;
+}
+.card-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #364EAE;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.card-buttons button{
+    display: flex;
+    width: 34%;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #364EAE;
+    color: #fff;
+    font-family: "vazir";
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: center;
+}
+.card-buttons button:hover{
+    background-color:#4C6EF5 ;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    width: 92.7%;
+}
+.header-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    color: #404040;
+}
+.header-table a{
+    text-decoration: none;
+    color: #4C6EF5;
+    font-size: 1rem;
 }

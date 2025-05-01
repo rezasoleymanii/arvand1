@@ -65,6 +65,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;   
+    cursor: pointer;
 }
 .box-name p{
     font-size: 14px;
@@ -74,13 +75,18 @@ body{
     margin: 0;
     font-size: 12px;
     color: #4564DF;
+    cursor: pointer;
 }
 .icon-Buttoms{
     display: flex;
     width: 25%;
     justify-content: space-between;
 }
+.settings{
+    cursor: pointer;
+}
 .box-bell{
+    cursor: pointer;
     position: relative;
 }
 .badge img{
@@ -90,7 +96,7 @@ body{
 }
 .center{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .SideBar{
     width: 22%;
@@ -167,8 +173,11 @@ body{
     justify-content: space-between;
     width: 16.2%;
 }
+.icon-Button{
+    cursor: pointer;
+}
 .card{
-    width: 34.8%;
+    width: 344px;
 }
 .card-body{
     display: flex;
@@ -228,6 +237,7 @@ body{
     align-items: center;
     padding: 0.5rem;
     justify-content: center;
+    cursor: pointer;
 }
 .card-buttons button:hover{
     background-color:#4C6EF5 ;
@@ -252,4 +262,158 @@ body{
     text-decoration: none;
     color: #4C6EF5;
     font-size: 1rem;
+}
+.transaction table{
+    width: 100%;
+    text-align: right;
+}
+.transaction table tr{
+    color: #868686;
+    height: 56px;
+}
+.transaction table tr th{
+    width: 31%;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.transaction table tr td{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #0C0C0C;
+
+}
+.true span{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #00A652;
+    border-radius: 1rem;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+    text-align: center;
+    background-color: #ECFFF3;
+}
+.false span{
+    display: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #AE2E2E;
+    border-radius: 1rem;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+    text-align: center;
+    background-color: #FFECEC;
+}
+.transaction table tr:nth-child(4) .true{ 
+    display: none;
+}
+.transaction table tr:nth-child(4) .false span{
+    display: block;
+}
+.loan-banner-summary{
+    display: flex;
+    gap: 1rem;
+    color:#404040 ;
+    width: 97.4%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 50%;
+}
+.history-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    width: 50%;
+}
+.history{
+    padding: 1.5rem;
+}
+.header-section ul{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0;
+    height: 36px;
+}
+.header-section ul li{
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+.header-section ul li:hover{
+    color: #4C6EF5;
+    border-bottom: 1px solid #4C6EF5;
+    padding: 0.5rem;
+}
+.chart{
+    text-align: center;
+}
+.loan-details{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.details-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.detail-row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.detail-row:nth-child(2) .price-details{
+    color: #AE2E2E;
+}
+.loan-details button{
+    width: 100%;
+    cursor: pointer;
+    font-family: "vazir";
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #4C6EF5;
+    padding: 0.66rem;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.total-row-black{
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    background-color: #EDF1FE;
+    width: 100%;
+    height: 323px;
+    border-radius: 1rem;
+}
+.download-app{
+    display: flex;
+    width: 49%;
+    flex-direction: column;
+    color: #0C0C0C;
+    gap: 1rem;
+    align-items: center;
+}
+.ad{
+    color: #4C6EF5;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 51%;
 }

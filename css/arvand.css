@@ -111,6 +111,7 @@ body{
     display: flex;
     flex-direction: column;
     list-style: none;
+    gap: 0.5rem;
     padding: 0;
 }
 .list-menu{
@@ -120,6 +121,14 @@ body{
     gap: 0.5rem;
     align-items: center;
 }
+.menu-container li{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    fill:#868686 ;
+}
 .menu-container li a{
     display: flex;
     align-items: center;
@@ -127,7 +136,7 @@ body{
     text-decoration: none;
     border-radius: 0.5rem;
     height: 44px;
-    width: 95%;
+    width: 100%;
     color: #0C0C0C;
     fill:#868686 ;
 }
@@ -136,21 +145,26 @@ body{
     color: #4C6EF5;
     fill:#4C6EF5 ;
 }*/
-.menu-container li .selected{
-    
+.menu-container .selected a{
     fill: #EDF1FE ;
     color: #EDF1FE;
     background-color: #202E67;
 }
+.menu-container .selected:nth-child(3 ) a{
+    background-color: #000000;
+}
+.menu-container .selected ul{
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    gap: 0.8rem;
+}
 .menu-container li a .angle-down{
     padding-left: 0.5rem;
 }
-.list{
+.menu-container li ul{
     display:none;
-    flex-direction: column;
-    list-style: disc;
-    margin-top: 0.5rem;
-    gap: 0.8rem;
 }
 .comments-text img{
     border-radius: 10rem;

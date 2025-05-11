@@ -122,8 +122,6 @@ body{
     align-items: center;
 }
 .menu-container li{
-    display: flex;
-    flex-direction: column;
     width: 95%;
     text-decoration: none;
     border-radius: 0.5rem;
@@ -150,21 +148,35 @@ body{
     color: #EDF1FE;
     background-color: #202E67;
 }
-.menu-container .selected:nth-child(3 ) a{
-    background-color: #000000;
+.menu-container li a .angle-down svg:nth-child(2) {
+    display: none;
 }
-.menu-container .selected ul{
-    display: flex;
-    flex-direction: column;
-    list-style: disc;
-    margin: 0.5rem 0rem 0.5rem 0rem;
-    gap: 0.8rem;
+.menu-container .selected a .angle-down svg:nth-child(1) {
+    display: none;
+}
+.menu-container .selected a .angle-down svg:nth-child(2) {
+    display: block;
+}
+.menu-container .selected .list-box a{
+    background-color: #EDF1FE;
+    fill:  #4C6EF5;
+    color: #4C6EF5;
 }
 .menu-container li a .angle-down{
     padding-left: 0.5rem;
 }
 .menu-container li ul{
     display:none;
+}
+.menu-container .selected ul{
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    margin: 1.5rem 0rem 1rem 0rem;
+    gap: 0.8rem;
+}
+.menu-container .selected ul li.menu-selected{
+    color:#4C6EF5 ;
 }
 .comments-text img{
     border-radius: 10rem;
@@ -392,9 +404,7 @@ body{
     border-bottom: 1px solid #4C6EF5;
     padding: 0.5rem;
 }
-.chart{
-    text-align: center;
-}
+
 .loan-details{
     display: flex;
     gap: 1.5rem;

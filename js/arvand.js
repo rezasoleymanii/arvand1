@@ -13,7 +13,7 @@ item.forEach(function(item, index) {
         document.querySelector('.min-center .selected').classList.remove('selected');
         document.querySelector(".min-center li[data-content="+ dataBox +"]").classList.add('selected');
         
-        
+
 
     })
     

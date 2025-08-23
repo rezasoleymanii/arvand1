@@ -610,6 +610,32 @@ body{
 .screwer li:nth-child(2) a{
     color: #FFF;
 }
+.titele-payment{
+    display: flex;
+}
+.titele-payment .option-payment:nth-child(3){
+    justify-content: unset;
+    gap: 0.5rem;
+    span{
+    color: #4C6EF5;
+    }
+}
+.option-payment{
+    display: flex;
+    width: 11%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.option-payment:nth-child(2){
+    color: #4C6EF5;
+}
+.option-payment span{
+    color: #757575;
+    font-size: 0.9rem;
+}
+.min-center li:nth-child(3){
+    gap: 0;
+}
 @media (max-width: 800px) {
     .SideBar{
         width: 23%;

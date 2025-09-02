@@ -613,13 +613,6 @@ body{
 .titele-payment{
     display: flex;
 }
-.titele-payment .option-payment:nth-child(3){
-    justify-content: unset;
-    gap: 0.5rem;
-    span{
-    color: #4C6EF5;
-    }
-}
 .option-payment{
     display: flex;
     width: 11%;
@@ -647,7 +640,7 @@ body{
     border: 1px solid #EDEDED;
     border-radius: 1rem;
     padding: 1rem;
-    gap: 1.5rem;
+    gap: 2.5rem;
     width: 60%;
 }
 .haeder-transmission{
@@ -684,7 +677,11 @@ body{
 .profile-card{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
+}
+.profile-card span{
+    color: #404040;
 }
 .card-origin{
     display: flex;
@@ -851,11 +848,114 @@ body{
 .transmission-help div:nth-child(1) p{
     color: #4564DF;
 }
-.transmission-help div:nth-child(6) p{
-    color: #00A652;
-    background-color: #fff;
-    border-radius: 0.5rem;
+.number-card{
+    width: 62%;
+    text-align: start;
+    font-size: 1rem;
+}
+.successful-payment{
+    display: flex;
+    justify-content: center;
+}
+.successful-payment .transmission {
+    width: 50%;
+    padding: 1.5rem;
+}
+.header-payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+    span{
+        font-size: 1.2rem;
+        color: #00A652;
+    }
+}
+.center-payment{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 0rem 2rem 0rem;
+    border-top: 1px solid #EDEDED;
+    border-bottom: 3px dashed #EDEDED;
+}
+.footer-payment{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.successful-payment .profile-card .number-card{
+    width: 44%;
+}
+.property-payment{
+    display: flex;
+    justify-content: space-between;
+}
+.property-payment a{
+    width: 49%;
+}
+.property-payment a button{
+    width: 100%;
+    background-color: #EDF1FE;
+
+    span{
+        color: #4C6EF5;
+    }
+}
+.billing-services{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+.bills{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
     padding: 1rem;
+    gap: 2.5rem;
+    width: 60%;
+}
+.bills-top{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.haeder-bills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.haeder-bills .button-haeder{
+    width: 85%;
+
+    button{
+        padding: 1.5rem;
+    }
+}
+.bills-top .profile-card .description{
+    width: 85%;
+
+    input{
+        padding: 0.5rem;
+        width: 62%;
+    }
+    a{
+        width: 31%;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #4C6EF5;
+        padding: 0.66rem;
+    }
 }
 @media (max-width: 800px) {
     .SideBar{

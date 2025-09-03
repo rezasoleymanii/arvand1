@@ -621,6 +621,8 @@ body{
 }
 .option-payment:nth-child(2){
     color: #4C6EF5;
+    gap: 0.5rem;
+    width: 13%;
 }
 .option-payment span{
     color: #757575;
@@ -887,6 +889,8 @@ body{
     gap: 2rem;
 }
 .successful-payment .profile-card .number-card{
+    display: flex;
+    gap: 0.5rem;
     width: 44%;
 }
 .property-payment{
@@ -917,6 +921,21 @@ body{
     padding: 1rem;
     gap: 2.5rem;
     width: 60%;
+
+    a{
+        width: 31%;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #4C6EF5;
+        padding: 0.66rem;
+    }
 }
 .bills-top{
     display: flex;
@@ -955,6 +974,137 @@ body{
         border: none;
         background-color: #4C6EF5;
         padding: 0.66rem;
+    }
+}
+.bills-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.haeder-bottom span{
+    font-size: 1.2rem;
+    color: #404040;
+    font-weight: 700;
+}
+.bills-bottom .profile-card{
+    gap: 0.8rem;
+    justify-content: flex-start;
+}
+.id-name{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.ID-bills{
+    display: flex;
+    gap: 0.5rem;
+
+    span{
+        font-size: 0.6rem;
+    }
+}
+.bills-bottom .profile-card .number-card{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    width: 70%;
+
+    a{
+        width: 25%;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        color: #4C6EF5;
+        border-radius: 0.5rem;
+        border:1px solid #4C6EF5 ;
+        background-color: #fff;
+        padding: 0.5rem;
+    }
+}
+.billing-services .bills .profile-card .number-card{
+    display: flex;
+    gap: 0.5rem;
+}
+.purchase-charge{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 2.5rem;
+    width: 93%;
+    span{
+        color: #0C0C0C;
+    }
+}
+.charging-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.charging-header img{
+    padding: 1rem 2rem 1rem 2rem;
+}
+.charging-center{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    a{
+        width: 15%;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        color: #fff;
+        border-radius: 0.5rem;
+        border:none;
+        background-color: #4C6EF5;
+        padding: 0.5rem;
+    }
+}
+.charging-center .profile-card{
+    width: 100%;
+}
+.charging-center .profile-card .description{
+    width: 80%;
+}
+.charging-center .profile-card .description input{
+    padding: 0.3rem;
+    width: 40%;
+}
+.charging-center .profile-card .number-card{
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+}
+.charging-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-header span{
+    font-size: 1.2rem;
+    color: #404040;
+    font-weight: 600;
+}
+.charging-footer .profile-card{
+    width: 100%;
+}
+.charging-footer .profile-card .number-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+    
+    .charging-number{
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
     }
 }
 @media (max-width: 800px) {

@@ -1107,6 +1107,88 @@ body{
         width: 30%;
     }
 }
+.change-password{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 2.5rem;
+    width: 93%;
+}
+.chenge-tik{
+    width: 16%;
+
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        color: #fff;
+        border-radius: 0.5rem;
+        border:none;
+        background-color: #4C6EF5;
+        padding: 0.5rem;
+    }
+}
+.haeder-change .button-haeder{
+    width: 30%;
+}
+.help-change{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius:0.5rem;
+    padding-right: 1rem;
+    background-color: #F3F7FF;
+
+    p{
+        color: #0D6EFD;
+    }
+}
+.change-password .profile-card{
+    width: 60%;
+}
+.change-password .profile-card .card-amount{
+    width: 63%;
+
+    input{
+        padding: 0.3rem;
+    }
+}
+.request-top{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.request-top .profile-card{
+    width: 60%;
+}
+.request-top .profile-card .card-amount{
+    width: 63%;
+
+    input{
+        padding: 0.3rem;
+    }
+}
+.request-form{
+    display: flex;
+    gap: 4rem;
+}
+.block-the-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 2.5rem;
+    width: 93%;
+}
+.haeder-block .button-haeder{
+    width: 33%;
+}
+.block-the-card .profile-card{
+    width: 60%;
+}
 @media (max-width: 800px) {
     .SideBar{
         width: 23%;

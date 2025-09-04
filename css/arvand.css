@@ -1135,12 +1135,16 @@ body{
 }
 .help-change{
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
     border-radius:0.5rem;
-    padding-right: 1rem;
+    padding: 0.5rem;
     background-color: #F3F7FF;
-
+    div{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
     p{
         color: #0D6EFD;
     }
@@ -1188,6 +1192,32 @@ body{
 }
 .block-the-card .profile-card{
     width: 60%;
+}
+.block-the-card .card .card-body{
+    border: 1px solid #E3E2E1;
+}
+.block-the-card .card .card-body .card-number{
+    color: #CBCBCB;
+}
+.block-the-card .card .card-body .balance{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 300;
+
+    span{
+        padding: 0.5rem;
+        background-color: #AE2E2E;
+        border-radius: 1rem;
+    }
+}
+.block-the-card .card .card-buttons{
+    background-color: #E3E2E1;
+}
+.block-the-card .card .card-buttons button{
+    background-color: #E3E2E1;
+    color: #B1B1B1;
 }
 @media (max-width: 800px) {
     .SideBar{

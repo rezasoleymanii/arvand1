@@ -371,12 +371,6 @@ body{
     font-weight: 500;
     font-size: 0.8rem;
 }
-.transaction table tr td{
-    font-weight: 500;
-    font-size: 0.8rem;
-    color: #0C0C0C;
-
-}
 .true span{
     font-size: 0.8rem;
     font-weight: 400;
@@ -543,12 +537,15 @@ body{
 .option-chart{
     display: flex;
     gap: 1rem;
-    width: 35%;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: baseline;
 }
 .line-option{
     display: flex;
     align-items: baseline;
-    width: 100%;
+    width: 20%;
+    justify-content: space-around;
     span{
         color: #404040;
     }
@@ -577,12 +574,15 @@ body{
     align-items: baseline;
 }
 .table-filter tbody tr th{
-    width: 10%;
+    width: 12%;
 }
 .table-filter tbody tr td{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     width: 12%;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #0C0C0C;
 }
 .screwer{
     display: flex;
@@ -615,14 +615,14 @@ body{
 }
 .option-payment{
     display: flex;
-    width: 11%;
+    width: 15%;
     align-items: center;
     justify-content: space-evenly;
 }
 .option-payment:nth-child(2){
     color: #4C6EF5;
     gap: 0.5rem;
-    width: 13%;
+    width: 15%;
 }
 .option-payment span{
     color: #757575;
@@ -820,7 +820,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
+    width: 35%;
 }
 .transmission a button{
     width: 25%;
@@ -922,10 +922,10 @@ body{
     gap: 2.5rem;
     width: 60%;
 
-    a{
+    .check-bills{
         width: 31%;
-    }
-    button{
+
+        button{
         width: 100%;
         cursor: pointer;
         font-family: "vazir";
@@ -935,6 +935,7 @@ body{
         border: none;
         background-color: #4C6EF5;
         padding: 0.66rem;
+    }
     }
 }
 .bills-top{
@@ -949,10 +950,6 @@ body{
 }
 .haeder-bills .button-haeder{
     width: 85%;
-
-    button{
-        padding: 1.5rem;
-    }
 }
 .bills-top .profile-card .description{
     width: 85%;
@@ -1139,6 +1136,7 @@ body{
     align-items: flex-start;
     border-radius:0.5rem;
     padding: 0.5rem;
+    width: 93%;
     background-color: #F3F7FF;
     div{
         display: flex;
@@ -1219,6 +1217,34 @@ body{
     background-color: #E3E2E1;
     color: #B1B1B1;
 }
+@media (max-width: 1040px) {
+.transaction table tr td{
+    font-size: 0.6rem;
+
+    svg{
+        width: 18px;
+        height: 20px;
+    }
+}
+.bills{
+    button{
+        font-size: 0.66rem;
+
+    }
+}
+.option-payment:nth-child(2){
+    width: 19%;
+}
+.purchase-charge {
+    span{
+        font-size: 0.8rem;
+    }
+}
+.haeder-block .button-haeder {
+    width: 47%;
+}
+
+}
 @media (max-width: 800px) {
     .SideBar{
         width: 23%;
@@ -1246,7 +1272,124 @@ body{
     width: 100%;
     gap: 0.5rem;
 }
+.line-option {
+    width: 30%;
+}
+.table-filter tbody tr th {
+    width: 14%;
+}
+.transaction table tr th {
+    font-size: 0.7rem;
+    svg{
+        width: 12px;
+        height: 14px;
+    }
+}
+.transaction table tr td{
+    font-size: 0.55rem;
 
+    svg{
+        width: 12px;
+        height: 14px;
+    }
+}
+.charging-header img {
+    width: 9%;
+    padding: 1rem 0rem 1rem 0rem;
+    height: 40px;
+}
+.option-payment:nth-child(2) {
+        width: 29%;
+}
+.money-transfer{
+    gap: 1rem;
+} 
+.option-payment{
+    width: 20%;
+}
+.button-haeder{
+    width: 75%;
+}
+.card-origin{
+    width: 73%;
+}
+.card-deta {
+    width: 50%;
+    input {
+        width: 24%;
+    }
+}
+.card-check {
+    input{
+        width: 12px;
+    }
+}
+.check-box{
+    width: 56%;
+}
+.giv-pass{
+    width: 76%;
+}
+.number-card {
+    width: 55%;
+}
+.transmission a button{
+    width: 98%;
+}
+.successful-payment .transmission{
+    width: 80%;
+}
+.billing-services{
+    gap: 1rem;
+}
+.bills {
+    padding: 0.4rem;
+    button{
+        font-size: 0.51rem;
+    }
+}
+.bills .check-bills {
+    width: 100%;
+    font-size: 1rem;
+}
+.haeder-bills .button-haeder {
+    width: 73%;
+    
+    svg{
+        display: none;
+    }
+}
+.bills-top .profile-card .description {
+    width: 74%;
+}
+.charging-center .profile-card .number-card {
+    gap: 0.5rem;
+    width: 87%;
+}
+.charging-footer .profile-card .number-card {
+    .charging-number {
+        width: 35%;
+        align-items: center;
+    }
+}
+.option-payment {
+        width: 34%;
+}
+.option-payment span:nth-child(1) {
+        width: 100%;
+}
+.haeder-change .button-haeder {
+    width: 50%;
+}
+.change-password .profile-card {
+    width: 77%;
+}
+    .haeder-block .button-haeder {
+    width: 60%;
+}
+.block-the-card .profile-card {
+    width: 70%;
+}
 }
 @media (max-width: 425px) {
     .Header-box{
@@ -1295,9 +1438,7 @@ body{
         padding: 0;
         width: 97.5%;
     }
-    .transaction table tr td{
-        font-size: 0.5rem;
-    }
+
     .true span{
         font-size: 0.5rem;
     }
@@ -1350,14 +1491,223 @@ body{
         padding: 0;
         width: 85%;
     } 
+    .line-chart{
+        padding: 0.4rem;
+    }
+    .chart-header {
+    h2 {
+        font-size: 0.9rem;
+    }
+    }
+    .line-option {
+    svg{
+        width: 12px;
+        height: 14px;
+    }
+    span {
+        font-size: 0.55rem;
+    }
+    }
+    .filter {
+        width: 24%;
+    }
+    .transaction table tr th{
+        font-size: 0.47rem;
+    }
+    .table-filter tbody tr{
+        justify-content: normal;
+    }
+    .transaction table tr td {
+        font-size: 0.37rem;
+        width: 22%;
+        svg {
+            width: 8px;
+            height: 10px;
+        }
+    }
+    .screwer li{
+        width: 10%;
+    }
+    .money-transfer{
+        flex-direction: column;
+    }
+    .option-payment:nth-child(2) {
+        width: 38%;
+    }
+    .option-payment {
+        width: 23%;
+    }
+    .option-payment span {
+        font-size: 0.6rem;
+    }
+    .transmission {
+        width: 92%;
+    }
+    .card-check .type{
+            width: 30px;
+    }
+    .check-box {
+        width: 43%;
+    }
+    .transmission-help{
+        width: 92%;
+    }
+    .successful-payment .profile-card .number-card {
+        width: 54%;
+    }
+
+    .billing-services{
+        flex-direction: column;
+    }
+    .purchase-charge {
+        padding: 0.5rem;
+    }
+    .billing-services {
+        width: 92%;
+    }
+    .bills{
+        width: 100%;
+    }
+    .charging-footer .profile-card .number-card {
+        .charging-number {
+            width: 56%;
+        }
+    }
+    .card-check .type {
+        width: 25px;
+    }
+    .transmission a button{
+        font-size: 0.7rem;
+    }
+    .change-password{
+        padding: 0.5rem;
+    }
+    .haeder-change .button-haeder {
+        width: 70%;
+    }
+    .option-payment svg{
+        width: 24%;
+        height: 38%;
+    }
+    .change-password .profile-card {
+        width: 100%;
+    }
+    .request-top .profile-card {
+        width: 89%;
+    }
+    .request-form {
+    font-size: 0.8rem;
+    gap: 1rem;
+}
+    .block-the-card{
+        padding: 0.5rem;
+    }
+    .haeder-block .button-haeder {
+        width: 93%;
+    }
+    .block-the-card .profile-card {
+        width: 100%;
+    }
 }
 @media (max-width: 375px){
         .list-menu{
         padding-right: 0.7rem;
     }
+    .option-chart {
+        width: 60%;
+    }
+    .option-payment:nth-child(2) {
+        width: 43%;
+    }
+    .card-deta {
+        width: 39%;
+    }
+    .card-Cvv2{
+        width: 77%;
+    }
+    .card-check {
+        width: 69%;
+    }
+    .card-check .type {
+        width: 17px;
+    }
+    .description {
+        width: 69%;
+        span {
+            font-size: 0.5rem;
+            color: #4C6EF5;
+        }
+    }
+    .number-card {
+        width: 56%;
+    }
+    .profile-card span {
+        font-size: 0.8rem;
+    }
+    .bills-top .profile-card .description {
+        button {
+            font-size: 0.8rem;
+        }
+    }
+    .bills-bottom .profile-card .number-card {
+        a  {
+            width: 60%;
+        }
+    }
+    .charging-center:nth-child(2) .profile-card{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .number-card form label span{
+        font-size: 0.5rem;
+    }
+    .charging-center .profile-card .number-card {
+        gap: 0.1rem;
+        width: 100%;
+    }
+    .charging-footer span{
+        font-size: 0.5rem;
+    }
+    .haeder-change .button-haeder {
+        width: 80%;
+    }
+    .option-payment span:nth-child(1) {
+        width: 100%;
+    }
+    .option-payment:nth-child(2) {
+        width: 40%;
+    }
+    .option-payment {
+        width: 34%;
+    }
+    .request-form {
+        font-size: 0.7rem;
+    }
+    .button-haeder {
+        button{
+            font-size: 0.7rem;
+        }
+    }
+    .haeder-block .button-haeder {
+        width: 100%;
+        font-size: 0.8rem;
+    }
 }
 @media (max-width: 320px){
         .list-menu{
         padding-right: 0.6rem;
+    }
+    .request-form {
+        font-size: 0.5rem;
+        gap: 1rem;
+    }
+    .button-haeder {
+        button{
+            font-size: 0.5rem;
+        }
+    }
+    .option-payment:nth-child(2) {
+        width: 46%;
     }
 }
